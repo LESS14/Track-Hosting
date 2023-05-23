@@ -13,5 +13,4 @@ Caso goste do design, sinta-se livre para usar.
 </ul>
 <hr>
 <h2>Links</h2>
-<br/>
 <a target="_blank" href="www.less14.github.io/Track-Hosting">Preview do site</a>
