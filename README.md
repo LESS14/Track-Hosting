@@ -4,7 +4,7 @@ Caso goste do design, sinta-se livre para usar.
 
 # Dependencias
 <ul>
-  <li><a>Bootstrap 5.2</a></li>
+  <li><a>Bootstrap 5.2.3</a></li>
   <li><a>FontAwesome v4</a></li>
   <li><a>Sweetalert 2</a></li>
   <li><a>Jquery</a></li>
