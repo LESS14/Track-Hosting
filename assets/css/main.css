@@ -1,0 +1,94 @@
+.body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+}
+
+:root {
+    --section-default-padding: 5rem;
+}
+
+.whatsapp-icon {
+    top: 78%;
+    right: 2%;
+    z-index: 10000000;
+    border-radius: 50%;
+    box-shadow: 3px 3px 1px grey;
+    opacity: 0.75;
+
+    animation-name: icon-animation;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.img-logo {
+    user-select: none;
+    pointer-events: none;
+}
+
+#navbar__links {
+    color: #fff;
+    font-weight: bold;
+}
+
+#navbar__links:hover {
+    color: #EE3B24 !important;
+}
+
+.section {
+    padding: var(--section-default-padding);
+    text-align: center;
+}
+
+.store_main {
+    background: url('../images/banner.jpg')fixed 50% 50%;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.store_items {
+    display: block;
+}
+
+#footer-main {
+    overflow-x: hidden;
+}
+
+#socials-main i {
+    user-select: none;
+}
+
+.store_item {
+    display: inline-table;
+    border-radius: 50%;
+    padding: 1rem;
+    gap: 10px;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #8080;
+}
+
+.hover-orange {
+    color: #EE3B24;
+}
+
+.store_item_banner:hover {
+    transform: scale(1.1);
+    transition: all 500ms ease-in-out;
+}
+
+@keyframes icon-animation {
+    0% {
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        transform: translate3d(0, -15px, 0);
+      }
+      
+}
