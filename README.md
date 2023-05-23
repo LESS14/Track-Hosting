@@ -2,7 +2,7 @@
 Site de hosting(Apenas o front-end) que fiz em um dia de tédio. Até que o resultado ficou bem legal.
 Caso goste do design, sinta-se livre para usar.
 
-#Dependencias
+# Dependencias
 <ul>
   <li><a>Bootstrap 5.2</a></li>
   <li><a>FontAwesome v4</a></li>
@@ -12,5 +12,5 @@ Caso goste do design, sinta-se livre para usar.
   <li><a>Baguette Box</a></li>
 </ul>
 <hr>
-#Links
+# Links
 <a target="_blank" href="www.less14.github.io/Track-Hosting">Preview do site</a>
